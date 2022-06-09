@@ -1,9 +1,9 @@
 package greetings
 
-import {
+import (
 	"errors"
 	"fmt"
-}
+)
 
 func Hello(name string) (string, error) {
 	if name == "" {
